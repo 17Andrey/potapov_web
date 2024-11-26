@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="img/logo.png" alt="logo" class="img1">
+            <div class="wrapper-inner">
+                <div class="offer">
+                    <h1 class="offer_h1">
+                        С помощью нас вы сможете создать то, о чем
+                    </h1>
+                    <span class="offer_span">
+                        Желаете
+                    </span>
+                    <p class="offer_p">
+                        Наши фозможности + опыт позволяет Вам
+                        достичь огромного успеха. Мы верим в нас!
+                        И знаем это на все 100%. Вас не остановить!
+                    </p>
+                    <a class="btn" target="_blank">Узнать больше...</a>
+                </div>
+                <img src="img/header-img.png" alt="header_picture" class="img2">
+            </div>
+        </div>
+    </header>
+    <div class="second">
+        <div class="container">
+            <div class="blocks">
+                <h1 class="blocks_h1">
+                    Что Вам необходимо?
+                </h1>
+                <div class="blocks_blocks">
+                    <div class="blocks_blocks_n">
+                        <img class="blocks_img" src="img/f3.png" alt="pencil">
+                        <h3 class="blocks_blocks_h3">
+                            Первый блок
+                        </h3>
+                        <p class="blocks_blocks_p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="blocks_blocks_n">
+                        <img class="blocks_img" src="img/f4.png" alt="ball">
+                        <h3 class="blocks_blocks_h3">
+                            Второй блок
+                        </h3>
+                        <p class="blocks_blocks_p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="blocks_blocks_n">
+                        <img class="blocks_img" src="img/f5.png" alt="flag">
+                        <h3 class="blocks_blocks_h3">
+                            Третий блок
+                        </h3>
+                        <p class="blocks_blocks_p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="third">
+        <div class="container" style="width: 100%; max-width: 400px;">
+            <div class="forms" style="text-align: center;">
+                <h2 class="forms_h2" style="font-family: Arial, sans-serif; font-size: 20px; margin-bottom: 20px;">
+                    Форма заказа обратного звонка
+                </h2>
+                <form action="#" method="post" class="forms_form">
+                    <input class="forms_form_input" type="text" name="login" id="login" placeholder="Имя"
+                        style="width: 100%; padding: 10px; margin-bottom: 10px;">
+                    <input class="forms_form_input" type="text" name="email" id="email" placeholder="Введите свой Email"
+                        style="width: 100%; padding: 10px; margin-bottom: 10px;">
+                    <input class="forms_form_input" type="tel" name="phone" id="phone" placeholder="Телефон"
+                        style="width: 100%; padding: 10px; margin-bottom: 10px;">
+                    <input class="forms_form_input" type="text" name="free_text" id="free_text"
+                        placeholder="Какая тема Вас интересует?"
+                        style="width: 100%; padding: 10px; margin-bottom: 20px;">
+                    <button class="forms_btn" type="submit"
+                        style="background-color: yellow; border: none; padding: 10px 20px; font-family: Arial, sans-serif; font-size: 16px; cursor: pointer;">
+                        Отправить вопрос!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscription-section">
+        <h2>Подпишитесь на рассылку!</h2>
+        <form id="subscriptionForm">
+            <label for="subscriberName">Имя:</label><br>
+            <input type="text" id="subscriberName" placeholder="Введите ваше имя">
+            <span id="nameFeedback" class="feedback"></span><br><br>
+    
+            <label for="subscriberEmail">Email:</label><br>
+            <input type="email" id="subscriberEmail" placeholder="Введите ваш email">
+            <span id="emailFeedback" class="feedback"></span><br><br>
+    
+            <label for="subscriberPhone">Телефон:</label><br>
+            <input type="text" id="subscriberPhone" placeholder="Введите ваш телефон">
+            <span id="phoneFeedback" class="feedback"></span><br><br>
+    
+            <button type="button" id="subscribeButton">Подписаться</button>
+        </form>
+        <div id="subscriptionMessage" class="feedback"></div>
+    </div>    
+
+    <footer class="footer1">
+        <div class="container">
+            <p class="footer_text">
+                © Все на этом сайте запрещено
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
